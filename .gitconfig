@@ -1,0 +1,7 @@
+[user]
+	name = Rafael Andrade
+	email = rafael.io@outlook.com
+[credential]
+	helper = "!f() { /var/www/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/node /tmp/vscode-remote-containers-c14be424-4d15-40b1-8233-403bb69d87fe.js git-credential-helper $*; }; f"
+[url "https://"]
+	insteadOf = git://
