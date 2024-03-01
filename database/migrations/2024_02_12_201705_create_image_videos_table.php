@@ -12,7 +12,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('image_videos', function (Blueprint $table) {
+        Schema::create('images_video', function (Blueprint $table) {
             $table->uuid('id')->primary();
             $table->uuid('video_id')->index();
             $table->foreign('video_id')->references('id')->on('videos');
@@ -27,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('image_videos');
+        Schema::dropIfExists('images_video');
     }
 };
