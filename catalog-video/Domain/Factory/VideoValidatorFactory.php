@@ -1,7 +1,6 @@
 <?php namespace CatalogVideo\Domain\Factory;
 
 use CatalogVideo\Domain\Validation\ValidatorInterface;
-use CatalogVideo\Domain\Validation\VideoLaravelValidator;
 use CatalogVideo\Domain\Validation\VideoRakitValidator;
 
 class VideoValidatorFactory
