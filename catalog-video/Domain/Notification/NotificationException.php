@@ -2,6 +2,4 @@
 
 use Exception;
 
-class NotificationException extends Exception
-{
-}
+class NotificationException extends Exception { }
