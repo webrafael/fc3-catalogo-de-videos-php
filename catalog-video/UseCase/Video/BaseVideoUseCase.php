@@ -5,7 +5,7 @@ use CatalogVideo\Domain\Enum\{
     MediaStatus
 };
 use CatalogVideo\Domain\Events\VideoCreatedEvent;
-use CatalogVideo\Domain\Exception\NotFoundException;
+use CatalogVideo\Domain\Exceptions\NotFoundException;
 use CatalogVideo\Domain\Repository\CastMemberRepositoryInterface;
 use CatalogVideo\Domain\Repository\CategoryRepositoryInterface;
 use CatalogVideo\Domain\Repository\GenreRepositoryInterface;

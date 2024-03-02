@@ -1,7 +1,7 @@
 <?php namespace CatalogVideo\UseCase\Genre;
 
 use CatalogVideo\Domain\Entity\Genre;
-use CatalogVideo\Domain\Exception\NotFoundException;
+use CatalogVideo\Domain\Exceptions\NotFoundException;
 use CatalogVideo\Domain\Repository\CategoryRepositoryInterface;
 use CatalogVideo\Domain\Repository\GenreRepositoryInterface;
 use CatalogVideo\UseCase\DTO\Genre\Create\GenreCreateInputDto;
